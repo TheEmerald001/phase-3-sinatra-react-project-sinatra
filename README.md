@@ -30,18 +30,14 @@ The following are the features implemented in this project:
 In addition to this, a react front end is built [here](...) that;
 - Interacts with the API to perform CRUD actions.
 
-For example, build a todo list application with a React frontend interface and a
-Sinatra backend API, where a user can:
 
 ## Instructions
 
-To get started, clone/fork this repo and run
+To get started, [clone/fork](https://github.com/TheEmerald001/phase-3-sinatra-react-project-sinatra/fork) this repo and run
 `bundle install` to install the gems.
 
 
-[fork link]: https://github.com/TheEmerald001/phase-3-sinatra-react-project-sinatra/fork
-
-The `app/controllers/application_controller.rb` file has the routes to listening for a fetched.
+The `app/controllers/application_controller.rb` file has the routes to listening for a fetch.
 
 Start the server with:
 
@@ -51,4 +47,6 @@ $ bundle exec rake server
 
 This will run your server on port
 [http://localhost:9292](http://localhost:9292).
+
+Feel free to interact with the DB by querying and using various methods and seed data.
 
