@@ -19,7 +19,8 @@ puts "🌱 Seeding data, Please wait..."
         image_url: Faker::LoremFlickr.image,
         price: rand(20..99),
         rating: rand(5.5..9.8),
-        owner_id: rand(1..10)
+        owner_id: rand(1..10),
+        user_id: rand(1..30)
     )
 end
 10.times do
