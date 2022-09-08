@@ -37,6 +37,7 @@ gem "require_all", "~> 3.0"
 # These gems will only be used when we are running the application locally
 group :development do
   gem "pry", "~> 0.14.1"
+  gem "faker", "~> 2.18.0"
 
   # Automatically reload when there are changes
   # https://github.com/alexch/rerun
@@ -45,6 +46,7 @@ end
 
 # These gems will only be used when we are running tests
 group :test do
+  gem "faker", "~> 2.18.0"
   gem "database_cleaner", "~> 2.0"
   gem "rack-test", "~> 1.1"
   gem "rspec", "~> 3.10"
