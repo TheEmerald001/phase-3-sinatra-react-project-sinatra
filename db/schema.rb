@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2022_09_08_103113) do
     t.integer "price"
     t.integer "rating"
     t.integer "owner_id"
+    t.integer "user_id"
   end
 
   create_table "owners", force: :cascade do |t|
