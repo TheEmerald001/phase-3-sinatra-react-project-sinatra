@@ -27,7 +27,7 @@ The following are the features implemented in this project:
   - full CRUD capability for othe models
 
 ## Additionally:
-In addition to this, a react front end is built [here](...) that;
+In addition to this, a react front end is built [here](https://github.com/TheEmerald001/happy-stays) that;
 - Interacts with the API to perform CRUD actions.
 
 
