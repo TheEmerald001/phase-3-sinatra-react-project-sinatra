@@ -4,13 +4,11 @@
 
 ## PROJECT GOALS
 
-- To Build a web basic API with Sinatra and Active Record to support a React
-  frontend
+- To Build a basic web API with Sinatra and Active Record to support a React frontend
 
 ## Introduction
 
-This project is undertaken to fulfil and thus thus prove the use of ruby to develop a backend that will be
-  utilised by a react frontend.
+This project is undertaken to fulfil and thus prove the use of ruby to develop a backend that will be utilised by a react frontend.
 
 The focus of this project is **building a Sinatra API backend** that uses
 **Active Record** to access and persist data in a database, which will be used
@@ -22,9 +20,9 @@ The following are the features implemented in this project:
 
 - Use of Active Record to interact with a database.
 - Models with a one-to-many relationship.
-- API routes in Sinatra taht:
+- API routes in Sinatra that:
   - create and read actions for both models
-  - full CRUD capability for othe models
+  - Offer a full CRUD capability for other models
 
 ## Additionally:
 In addition to this, a react front end is built [here](https://github.com/TheEmerald001/happy-stays) that;
@@ -42,11 +40,11 @@ The `app/controllers/application_controller.rb` file has the routes to listening
 Start the server with:
 
 ```console
-$ bundle exec rake server
+$ bundle exec rerun -b 'rackup config.ru'
 ```
 
 This will run your server on port
 [http://localhost:9292](http://localhost:9292).
 
-Feel free to interact with the DB by querying and using various methods and seed data.
+Ther local server is able to respond to requests and acept incoming data for a persisted nature.
 
